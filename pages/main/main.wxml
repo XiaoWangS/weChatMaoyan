@@ -1,0 +1,22 @@
+<!--pages/main/main.wxml-->
+<text>hahahahaha</text>
+<button bindtap='clickMusic'>点我试试看</button>
+<text wx:for='{{movie}}' wx:key='{{value}}'>
+  <image src='{{ip+item.uimg}}'></image>
+    {{ip+item.uimg}}
+    {{item.name}}
+    <view>
+  <image src='{{ip+item.img}}'></image>        
+    </view>
+    <view>
+  <image src='{{ip}}/wangyi/2222.png'></image>   
+    </view>
+    <view>
+  <image src='http://172.20.10.8:9527/wangyi/2222.png'></image>       
+    </view>
+
+</text>
+<view>
+  {{ip}}wangyi/2222.png
+  <image src='http://172.20.10.8:9527/wangyi/2222.png'></image>
+</view>
